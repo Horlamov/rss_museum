@@ -1,0 +1,47 @@
+.header
+	height: 150px
+	&-container
+		display: flex
+		justify-content: space-between
+		align-items: center
+.section
+	padding: 75px 0
+	&-dark
+		background-color: #030303
+	&-padtop
+		padding-top: 90px
+
+.container
+	margin: 0 auto
+	max-width: 1440px
+
+.logo	
+	display: flex
+	justify-content: space-between
+	&-svg
+		width: 49px
+		height: 26px
+		background-image: url("/assets/svg/logo.svg")
+	&-text
+		font-size: 28px
+		line-height: 31px
+		letter-spacing: 5px	
+		text-transform: uppercase
+		color: #fff
+nav>ul
+	display: flex
+	justify-content: space-around
+	align-items: center
+	max-width: 720px
+	padding-left: 0
+	&>li
+		list-style: none
+		padding: 0 15px
+		font-size: 22px
+		line-height: 26px
+		letter-spacing: 2px
+		color: #fff
+		&>:last-child
+			padding-right: 0
+		&>:first-child
+			padding-left: 0
